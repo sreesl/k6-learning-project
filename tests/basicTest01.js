@@ -7,14 +7,14 @@ export const options = {
             executor: 'shared-iterations',
             vus: 5,
             iterations: 10,
-            maxDuration: '10m',
+            maxDuration: '1m',
             exec: 'testMethod1'
         },
         sc_2:{
             executor: 'per-vu-iterations',
             vus: 10,
             iterations: 20,
-            maxDuration: '1h30m',
+            maxDuration: '1m',
             exec: 'testMethod2'
         },
         sc_3:{
