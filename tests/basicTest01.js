@@ -43,7 +43,7 @@ export const options = {
     },
     discardResponseBodies: true,
     thresholds: {
-                trend_for_method1: ['p(95)<20'],
+                trend_for_method1: ['p(95)<30'],
                 trend_for_method2: ['p(95)<30'],
                 trend_for_method3: ['p(95)<20'],
                 trend_for_method4: ['p(95)<40']
